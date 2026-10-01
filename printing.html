@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Print Shop — T-Shirts, ID Cards, Boards & More | BPH</title>
+  <meta name="description" content="Custom printing in Nepal: sublimation and polo t-shirts, flex and 3D boards, ID cards, lanyards, badges, mugs and frames. Order on WhatsApp.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/bph-logo.png" alt="Bara Print House" class="brand-icon">
+        <span class="brand-title">BPH <span>AI Store</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html#plans" class="nav-link" data-i18n="nav_subs">Subscriptions</a>
+        <a href="printing.html" class="nav-link active" data-i18n="nav_print">Print Shop</a>
+        <a href="course.html" class="nav-link" data-i18n="nav_course">AI Mastery</a>
+        <a href="track.html" class="nav-link" data-i18n="nav_track">Track Order</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Switcher -->
+        <div class="lang-toggle">
+          <button type="button" class="lang-btn active" data-lang="en">ENG</button>
+          <button type="button" class="lang-btn" data-lang="np">NEP</button>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button type="button" id="themeToggleBtn" class="icon-btn" aria-label="Toggle Theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+
+        <!-- WhatsApp Us -->
+        <a href="https://wa.me/9779845020025" target="_blank" rel="noreferrer" class="btn-whatsapp">
+          <span data-i18n="whatsapp_us">WhatsApp Us</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button type="button" id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Open Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <!-- Page Title -->
+      <div style="text-align: center; max-width: 680px; margin: 0 auto 30px;">
+        <span class="hero-badge" style="margin-bottom: 12px;">Bara Print House</span>
+        <h1 style="font-size: 3.5rem; margin-bottom: 12px;">
+          Print <span class="text-gradient">Shop</span>
+        </h1>
+        <p style="color: var(--text-muted); font-size: 1.1rem;">
+          T-shirts, boards, ID cards, lanyards, badges and more — printed your way. Tap any item to order or get a price on WhatsApp.
+        </p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="print-filter-wrap">
+        <button type="button" class="filter-pill active" data-category="All">All</button>
+        <button type="button" class="filter-pill" data-category="Apparel">Apparel</button>
+        <button type="button" class="filter-pill" data-category="ID & Lanyards">ID & Lanyards</button>
+        <button type="button" class="filter-pill" data-category="Signage">Signage</button>
+        <button type="button" class="filter-pill" data-category="Gifts">Gifts</button>
+        <button type="button" class="filter-pill" data-category="Accessories">Accessories</button>
+      </div>
+
+      <!-- Print Products Grid -->
+      <div id="printProductsGrid" class="print-grid">
+        <!-- Rendered by js/app.js -->
+      </div>
+
+      <!-- Custom Order Banner -->
+      <div class="course-banner glass glow-ring" style="text-align: center; margin-top: 60px; padding: 50px 30px;">
+        <h2 style="font-size: 2.4rem; margin-bottom: 12px;">
+          Need something <span class="text-gradient">custom printed?</span>
+        </h2>
+        <p style="color: var(--text-muted); max-width: 540px; margin: 0 auto 24px; font-size: 1rem;">
+          Bulk orders, school and office IDs, event badges, shop boards — send us your design and get a price within minutes.
+        </p>
+        <a href="https://wa.me/9779845020025?text=Hello%20BPH!%20I%20want%20a%20price%20quote%20for%20a%20custom%20printing%20order." target="_blank" rel="noreferrer" class="btn-primary" style="padding: 14px 34px; font-size: 1rem;">
+          Chat on WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div style="display: flex; gap: 16px; align-items: flex-start;">
+        <img src="assets/bph-logo.png" alt="Bara Print House" class="brand-icon" style="width: 52px; height: 52px;">
+        <div>
+          <h4 style="font-size: 1.35rem; margin-bottom: 6px;">BPH AI Store</h4>
+          <p style="color: var(--text-muted); font-size: 0.9rem; max-width: 380px;" data-i18n="footer_tag">
+            Premium AI subscriptions, printing and live AI training across Nepal.
+          </p>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px; font-size: 0.9rem;">
+        <div>
+          <span style="color: var(--text-muted);" data-i18n="call_whatsapp">Call / WhatsApp:</span><br>
+          <a href="tel:9845020025" style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--primary);">
+            9845020025
+          </a>
+        </div>
+        <div>
+          <span style="color: var(--text-muted);" data-i18n="email">Email:</span><br>
+          <a href="mailto:bph.simara@gmail.com" style="color: var(--text-main); font-weight: 500;">
+            bph.simara@gmail.com
+          </a>
+        </div>
+        <div>
+          <span style="color: var(--text-muted);" data-i18n="follow">Follow us:</span>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/profile.php?id=61593131223547" target="_blank" rel="noreferrer" class="social-link" title="Facebook">FB</a>
+            <a href="https://www.instagram.com/baraprinthouse/" target="_blank" rel="noreferrer" class="social-link" title="Instagram">IG</a>
+            <a href="https://youtube.com/@baraprinthouse" target="_blank" rel="noreferrer" class="social-link" title="YouTube">YT</a>
+            <a href="https://g.page/r/CXNHZ5RWGNJfEAE/review" target="_blank" rel="noreferrer" class="social-link" title="Google Review">★</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      © <span id="curYear"></span> Bara Print House. Subscriptions are activated manually after payment confirmation.
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById("curYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
